@@ -1,3 +1,74 @@
-.title {
-  color: #02ccba;
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 180px 0 100px 0;
+}
+
+.top-wrapper {
+  text-align: center;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  opacity: 0.7;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  opacity: 0.8;
+  color: white;
+  display: inline-block;
+}
+
+.email {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right:10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
 }
